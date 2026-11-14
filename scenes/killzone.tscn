@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://dhq0pa6na6p7k"]
+
+[ext_resource type="Script" uid="uid://b1a2exggvbkey" path="res://killzone.gd" id="1_kl8fp"]
+[ext_resource type="PackedScene" uid="uid://dhq0pa6na6p7k" path="res://scenes/killzone.tscn" id="2_j2mit"]
+
+[node name="killzone" unique_id=94608146 instance=ExtResource("2_j2mit")]
+script = ExtResource("1_kl8fp")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

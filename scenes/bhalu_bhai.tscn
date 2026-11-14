@@ -1,0 +1,177 @@
+[gd_scene format=3 uid="uid://doa48tis17g4n"]
+
+[ext_resource type="Texture2D" uid="uid://doh4acj8ovfqf" path="res://assets/ENEMIES/bhalubhai/attack/attack_01.png" id="1_bb1te"]
+[ext_resource type="Texture2D" uid="uid://br58i100a3q2e" path="res://assets/ENEMIES/bhalubhai/attack/attack_02.png" id="2_jsgbb"]
+[ext_resource type="Texture2D" uid="uid://xnxvkh45ot7k" path="res://assets/ENEMIES/bhalubhai/attack/attack_03.png" id="3_w32fl"]
+[ext_resource type="Texture2D" uid="uid://dkal0ebdwm0mp" path="res://assets/ENEMIES/bhalubhai/attack/attack_04.png" id="4_v6665"]
+[ext_resource type="Texture2D" uid="uid://0gdv7i1gxidn" path="res://assets/ENEMIES/bhalubhai/attack/attack_05.png" id="5_80aub"]
+[ext_resource type="Texture2D" uid="uid://behxxt6ycpykv" path="res://assets/ENEMIES/bhalubhai/attack/attack_06.png" id="6_ebyut"]
+[ext_resource type="Texture2D" uid="uid://d3pqruyfso1sx" path="res://assets/ENEMIES/bhalubhai/attack/attack_07.png" id="7_325tj"]
+[ext_resource type="Texture2D" uid="uid://ciqffbdjudefp" path="res://assets/ENEMIES/bhalubhai/BhaluBhai.png" id="8_a7on1"]
+[ext_resource type="Texture2D" uid="uid://bmabe8urse1xv" path="res://assets/ENEMIES/bhalubhai/defense/defense_01.png" id="9_61sfn"]
+[ext_resource type="Texture2D" uid="uid://b2txk5xyk1n26" path="res://assets/ENEMIES/bhalubhai/defense/defense_02.png" id="10_u8oxg"]
+[ext_resource type="Texture2D" uid="uid://comsq1wx2tahw" path="res://assets/ENEMIES/bhalubhai/defense/defense_03.png" id="11_txc4a"]
+[ext_resource type="Texture2D" uid="uid://b86ovtnmj46f7" path="res://assets/ENEMIES/bhalubhai/defense/defense_04.png" id="12_tbgut"]
+[ext_resource type="Texture2D" uid="uid://b8udeamieowbf" path="res://assets/ENEMIES/bhalubhai/defense/defense_05.png" id="13_xos5u"]
+[ext_resource type="Texture2D" uid="uid://djuy4hq83502x" path="res://assets/ENEMIES/bhalubhai/defense/defense_06.png" id="14_advm1"]
+[ext_resource type="Texture2D" uid="uid://botnk8452mfjo" path="res://assets/ENEMIES/bhalubhai/defense/defense_07.png" id="15_isxko"]
+[ext_resource type="Texture2D" uid="uid://c2ymiwo5gkx4h" path="res://assets/ENEMIES/bhalubhai/idle/idle_01.png" id="16_l1vmy"]
+[ext_resource type="Texture2D" uid="uid://cy2rthhklurf6" path="res://assets/ENEMIES/bhalubhai/idle/idle_02.png" id="17_k80gw"]
+[ext_resource type="Texture2D" uid="uid://dx4plan5i27ck" path="res://assets/ENEMIES/bhalubhai/idle/idle_03.png" id="18_d6vbh"]
+[ext_resource type="Texture2D" uid="uid://8psip5h7uhlp" path="res://assets/ENEMIES/bhalubhai/idle/idle_04.png" id="19_tuntm"]
+[ext_resource type="Texture2D" uid="uid://bgvphw1cw5hjb" path="res://assets/ENEMIES/bhalubhai/idle/idle_05.png" id="20_ui4x4"]
+[ext_resource type="Texture2D" uid="uid://bi8gys8rhsye2" path="res://assets/ENEMIES/bhalubhai/idle/idle_06.png" id="21_mlf5e"]
+[ext_resource type="Texture2D" uid="uid://b7t7h6x63gvim" path="res://assets/ENEMIES/bhalubhai/run/run_01.png" id="22_io4va"]
+[ext_resource type="Texture2D" uid="uid://dvrx3iclbu83e" path="res://assets/ENEMIES/bhalubhai/run/run_02.png" id="23_rjubx"]
+[ext_resource type="Texture2D" uid="uid://bux6oyxoydp2p" path="res://assets/ENEMIES/bhalubhai/run/run_03.png" id="24_dytg5"]
+[ext_resource type="Texture2D" uid="uid://c60h03j8buovf" path="res://assets/ENEMIES/bhalubhai/run/run_04.png" id="25_si3vn"]
+[ext_resource type="Texture2D" uid="uid://b2a4yjk8ftt0a" path="res://assets/ENEMIES/bhalubhai/run/run_05.png" id="26_12njw"]
+[ext_resource type="Texture2D" uid="uid://rx6karsdyujn" path="res://assets/ENEMIES/bhalubhai/run/run_06.png" id="27_tmbqi"]
+[ext_resource type="Texture2D" uid="uid://b0td4hmfxapb2" path="res://assets/ENEMIES/bhalubhai/walk/walk_01.png" id="28_c4t6c"]
+[ext_resource type="Texture2D" uid="uid://b3dxc4wdqu0sm" path="res://assets/ENEMIES/bhalubhai/walk/walk_02.png" id="29_imi6j"]
+[ext_resource type="Texture2D" uid="uid://d3esmobbws83g" path="res://assets/ENEMIES/bhalubhai/walk/walk_03.png" id="30_63gqb"]
+[ext_resource type="Texture2D" uid="uid://qlcsd6lbp3cd" path="res://assets/ENEMIES/bhalubhai/walk/walk_04.png" id="31_oohvm"]
+[ext_resource type="Texture2D" uid="uid://b4c7efc6k2bcl" path="res://assets/ENEMIES/bhalubhai/walk/walk_05.png" id="32_i3cw0"]
+[ext_resource type="Texture2D" uid="uid://yb2bniry8sip" path="res://assets/ENEMIES/bhalubhai/walk/walk_06.png" id="33_wgnyh"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_c3vjc"]
+animations = [{
+"frames": [{
+"duration": 0.8,
+"texture": ExtResource("1_bb1te")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_jsgbb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_w32fl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_v6665")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_80aub")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_ebyut")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_325tj")
+}],
+"loop": 1,
+"name": &"attack",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("8_a7on1")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("9_61sfn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_u8oxg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_txc4a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_tbgut")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_xos5u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_advm1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_isxko")
+}],
+"loop": 1,
+"name": &"defense",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("16_l1vmy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_k80gw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_d6vbh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_tuntm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_ui4x4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_mlf5e")
+}],
+"loop": 1,
+"name": &"idle",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("22_io4va")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_rjubx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_dytg5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_si3vn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_12njw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_tmbqi")
+}],
+"loop": 1,
+"name": &"run",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("28_c4t6c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_imi6j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_63gqb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_oohvm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_i3cw0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_wgnyh")
+}],
+"loop": 1,
+"name": &"walk",
+"speed": 10.0
+}]
+
+[node name="BhaluBhai" type="Node2D" unique_id=1758752232]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1941333389]
+position = Vector2(686, 465.5)
+scale = Vector2(2.9062493, 3.2031252)
+sprite_frames = SubResource("SpriteFrames_c3vjc")
+animation = &"idle"
+frame = 3
+frame_progress = 0.46298927
