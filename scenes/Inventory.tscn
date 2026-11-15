@@ -1,6 +1,12 @@
+<<<<<<< Updated upstream
 [gd_scene format=3 uid="uid://cjjd655vuitje"]
 
 [ext_resource type="Texture2D" uid="uid://cctm6jlwvkfy2" path="res://assets/MISC/Inventory.png" id="1_kh8if"]
+=======
+[gd_scene format=3 uid="uid://cdavlq5y656lk"]
+
+[ext_resource type="Texture2D" uid="uid://bl048y360wte3" path="res://assets/Inventory.png" id="1_kh8if"]
+>>>>>>> Stashed changes
 
 [node name="Control" type="Control" unique_id=1401516281]
 layout_mode = 3
